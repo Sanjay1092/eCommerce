@@ -1,9 +1,9 @@
-import { AppBar, Container } from "@mui/material";
+import { AppBar, Container, Menu, useMediaQuery } from "@mui/material";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import { ROUTES } from "../routes/routes";
+import { ROUTES } from "../../routes/routes";
 import { Link } from "react-router-dom";
-import { cn } from "../lib/utils";
+import { cn } from "../../lib/utils";
 import SearchIcon from "@mui/icons-material/Search";
 
 function Header() {
