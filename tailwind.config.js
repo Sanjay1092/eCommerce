@@ -7,6 +7,11 @@ export default {
       primary: ["Montserrat", "sans-serif"],
       secondary: ["Neuton", "system-ui"],
     },
+    screens: {
+      xs: "320px",
+      sm: "540px",
+      md: "768px",
+    },
   },
   plugins: [],
 };
